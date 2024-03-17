@@ -1,1 +1,1 @@
-# texty
+Texty is my first project where I used react to build the project with efficiency and less reloadings. It takes your text and performs necessary changes and editing automatically which would otherwise take a lot of your valuable time. It converts all your text to uppercharacters or lowercharacters depending on your needs. It also helps in previewing the text where we can copy and use it elsewhere.
