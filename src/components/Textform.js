@@ -46,10 +46,7 @@ export default function Textform(props) {
             <p>{text.length>0?text:"Nothing to preview!"}</p>
 </div>
 
-<div className='container mb-4'>
-    
-    <p1 style={{color:props.mode==="light"?"black":"grey"}}>{text.length>0?text:"Enter text above to preview here"}</p1>
-</div>
+
     </div>
   )
 }
