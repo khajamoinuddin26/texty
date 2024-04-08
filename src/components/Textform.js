@@ -39,12 +39,14 @@ export default function Textform(props) {
 
 <textarea className="form-control" id="mybox" rows="10" value={text} onChange={handlechange} style={{backgroundColor:props.mode==="light"?"white":"#030361", cursor: "text",
     color: props.mode === "light" ? "black" : "white"} }></textarea>
-</div>
+</div >
+<div className="container mb-4">
 <button disabled={text.length===0} className="btn btn-primary mx-2 mb-4" onClick={handleclick} >Convert to Uppercase</button>
 <button disabled={text.length===0} className="btn btn-primary mx-2 mb-4" onClick={handleclickl} id="btn">Convert to Lowercase</button>
 <button className="btn btn-primary mx-2 mb-4" onClick={handleclickc} >Clear text</button>
 <button className="btn btn-primary mx-2 mb-4" onClick={handleclickcopy} >Copy text</button>
 <button disabled={text.length===0} className="btn btn-primary mx-2 mb-4" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+</div>
 <div className='container mb-4' style={{color:props.mode==="light"?"black":"#b0b0b1"}}>
 <h2>Your text summary</h2>
             <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
