@@ -29,6 +29,7 @@ function App() {
     <>
     <Router>
       <Navbar title="TheTexty" mode={smode} toggleMode={tooglem} />
+      <Analytics/>
       <div className="container">
       
       </div>
@@ -40,7 +41,7 @@ function App() {
           <Route exact path="/about">
             <About  mode={smode} toggleMode={tooglem}/>
           </Route>
-          <Analytics/>
+          
           <Route exact path="/">
           <Textform heading="Enter your text for processing" mode={smode}/>
           </Route>
