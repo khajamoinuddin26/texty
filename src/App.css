@@ -48,3 +48,10 @@ p {
   width: fit-content;
   height: 1200px;
 }
+
+.contact-details {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}

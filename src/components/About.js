@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css';
 
 
 export default function About(props) {
@@ -64,6 +65,13 @@ export default function About(props) {
   </div>
   
 </div>
+ 
+ <div className="contact-details" style={{ color: mystyle.color }}>
+                <h4>Contact Details</h4>
+                <p>Email: khajamoinuddinsameer@gmail.com</p>
+                
+                
+            </div>
 
     </div>
   )
