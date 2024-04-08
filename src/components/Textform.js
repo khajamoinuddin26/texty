@@ -34,7 +34,7 @@ export default function Textform(props) {
     
     <div>
         
-     <h2 style={{color:props.mode==="light"?"black":"#b0b0b1"}}>{props.heading}</h2>
+     <h3 style={{color:props.mode==="light"?"black":"#b0b0b1"}}>{props.heading}</h3>
 <div className="container mb-4">
 
 <textarea className="form-control" id="mybox" rows="10" value={text} onChange={handlechange} style={{backgroundColor:props.mode==="light"?"white":"#030361", cursor: "text",
