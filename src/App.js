@@ -4,6 +4,7 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import React , {useState} from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import {
   BrowserRouter as Router,
   Switch,
@@ -39,7 +40,7 @@ function App() {
           <Route exact path="/about">
             <About  mode={smode} toggleMode={tooglem}/>
           </Route>
-          
+          <Analytics/>
           <Route exact path="/">
           <Textform heading="Enter your text for processing" mode={smode}/>
           </Route>
