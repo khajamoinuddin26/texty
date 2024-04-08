@@ -27,7 +27,7 @@ function App() {
   return (
     <>
     <Router>
-      <Navbar title="TextUtils" mode={smode} toggleMode={tooglem} />
+      <Navbar title="TheTexty" mode={smode} toggleMode={tooglem} />
       <div className="container">
       
       </div>
@@ -41,7 +41,7 @@ function App() {
           </Route>
           
           <Route exact path="/">
-          <Textform heading="Enter to analyze text" mode={smode}/>
+          <Textform heading="Enter your text for processing" mode={smode}/>
           </Route>
         </Switch>
         </Router>
