@@ -35,7 +35,7 @@ export default function About(props) {
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-      Texty is a versatile project developed using React, aimed at simplifying various text manipulation tasks. Whether it's formatting, analyzing, or transforming text, Texty provides an intuitive interface for users to perform these actions effortlessly. Leveraging React's component-based architecture, the project ensures modularity, scalability, and enhanced user experience.Text Util offers a robust solution for a diverse range of text processing needs. With its flexibility, scalability, and extensive feature set, Texty serves as an indispensable tool for professionals, researchers, students, and anyone working with textual data.
+      Texty is a versatile project developed using React, aimed at simplifying various text manipulation tasks. Whether it's formatting, analyzing, or transforming text, Texty provides an intuitive interface for users to perform these actions effortlessly. Leveraging React's component-based architecture, the project ensures modularity, scalability, and enhanced user experience.Texty offers a robust solution for a diverse range of text processing needs. With its flexibility, scalability, and extensive feature set, Texty serves as an indispensable tool for professionals, researchers, students, and anyone working with textual data.
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@ export default function About(props) {
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>Key Features</strong> TextUtils is structured into reusable components, each responsible for specific functionalities. For instance, the formatting feature is handled by a separate component, while text analysis functionalities reside within another. This modular approach simplifies development, debugging, and maintenance.
+        <strong>Key Features</strong> Texty is structured into reusable components, each responsible for specific functionalities. For instance, the formatting feature is handled by a separate component, while text analysis functionalities reside within another. This modular approach simplifies development, debugging, and maintenance.
       </div>
     </div>
   </div>
