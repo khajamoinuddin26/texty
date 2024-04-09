@@ -1,6 +1,8 @@
 
 import './App.css';
 import About from './components/About';
+import darkBackgroundImage from './assets/darkbackg.png';
+import lightBackgroundImage from './assets/whitebackg.png';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import React , {useState} from 'react'
@@ -27,6 +29,8 @@ function App() {
   
   return (
     <>
+    <div style={{backgroundImage: `url(${smode === "light" ? lightBackgroundImage : darkBackgroundImage})` , backgroundSize: 'cover', backgroundAttachment: 'fixed'}}>
+    
     <Router>
       <Navbar title="TheTexty" mode={smode} toggleMode={tooglem} />
       <Analytics/>
@@ -47,6 +51,7 @@ function App() {
           </Route>
         </Switch>
         </Router>
+    </div>
     </>
   );
 }

@@ -32,7 +32,7 @@ export default function Textform(props) {
     }
   return (
     
-    <div>
+    <div className="container mb-4">
         
      <h3 style={{color:props.mode==="light"?"black":"#b0b0b1"}}>{props.heading}</h3>
 <div className="container mb-4">
