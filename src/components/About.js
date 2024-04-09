@@ -35,7 +35,7 @@ export default function About(props) {
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-      Texty is a versatile project developed using React, aimed at simplifying various text manipulation tasks. Whether it's formatting, analyzing, or transforming text, TextUtils provides an intuitive interface for users to perform these actions effortlessly. Leveraging React's component-based architecture, the project ensures modularity, scalability, and enhanced user experience.
+      Texty is a versatile project developed using React, aimed at simplifying various text manipulation tasks. Whether it's formatting, analyzing, or transforming text, Texty provides an intuitive interface for users to perform these actions effortlessly. Leveraging React's component-based architecture, the project ensures modularity, scalability, and enhanced user experience.Text Util offers a robust solution for a diverse range of text processing needs. With its flexibility, scalability, and extensive feature set, Texty serves as an indispensable tool for professionals, researchers, students, and anyone working with textual data.
       </div>
     </div>
   </div>
