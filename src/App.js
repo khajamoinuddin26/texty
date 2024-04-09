@@ -32,7 +32,7 @@ function App() {
   
   return (
     <>
-    <div style={{backgroundImage: `url(${smode === "light" ? lightBackgroundImage : darkBackgroundImage})` , backgroundSize: 'cover', backgroundAttachment: 'fixed'}}>
+    <div style={{backgroundImage: `url(${smode === "light" ? lightBackgroundImage : darkBackgroundImage})` , backgroundSize: 'cover', backgroundAttachment: 'fixed', height: '100vh'}}>
     
     <Router>
       <Navbar title="TheTexty" mode={smode} toggleMode={tooglem} />
